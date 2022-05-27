@@ -4,7 +4,6 @@ import { configureStore, createSlice } from '@reduxjs/toolkit';
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 
 import TaskList from './TaskList';
-import * as TaskStories from './Task.stories';
 import { Task } from './Task';
 import { StoreState } from 'lib/store';
 
